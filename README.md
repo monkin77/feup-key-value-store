@@ -1,7 +1,12 @@
 # CPD Project2 - Distributed and Partitioned Key-Value Store
 
-## [Report](./doc/report.pdf)
+This project consists of a **Distributed key-value persistent store** for a large cluster. The main features requested were implemented: **Membership Service**, **Storage Srevice**, including a third internal service responsible for transferring files between nodes in membership events. Aside from those, the following enhancements were implemented:
+- **Replication** - to increase availability, key-value pairs are replicated with a given factor.
+- **Fault-Tolerance** - the system must handle failures of nodes and recover from them.
+- **Concurrency** - Having a large distributed system requires thread paralelization in each node. Solving possible concurrenc problems (eg. race conditions) is an important factor of the system.
+- **RMI** - Remote Method Invocation provides an easy-to-user interface to the client, facilitating the integration of our system.
 
+For more details, please refer to the [Project Report](./doc/report.pdf)
 
 ## How to compile the program
 First, make sure you have the Java JDK updated to at least version 17.
