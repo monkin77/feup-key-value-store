@@ -1,0 +1,8 @@
+1. rmiregistry &   -> Currently not working, se we're using 'LocateRegistry.createRegistry(1099);' in the Server.java
+
+2. java -classpath classDir -Djava.rmi.server.codebase=file:classDir/ example.hello.Server & -> In my case remove ".hello"
+
+3. java  -classpath classDir example.hello.Client -> Same thing about removing ".hello"
+
+
+
