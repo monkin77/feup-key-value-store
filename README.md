@@ -1,4 +1,7 @@
-# CPD Project2 - Compilation and Execution Instructions
+# CPD Project2 - Distributed and Partitioned Key-Value Store
+
+## [Report](./doc/report.pdf)
+
 
 ## How to compile the program
 First, make sure you have the Java JDK updated to at least version 17.
