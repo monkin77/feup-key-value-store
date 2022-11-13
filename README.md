@@ -26,3 +26,5 @@ In order to run the TestClient, run the following command in the `src` folder:
 ```
 java -cp . client.TestClient <node_ap> <operation> [<opnd>]
 ```
+
+## Final Grade: 18.20/20.00
